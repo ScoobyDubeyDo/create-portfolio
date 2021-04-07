@@ -70,7 +70,11 @@ header h1{
     color: var(--space-cadet);
     padding: 1rem 0rem 2.5rem 0rem;
     font-size: 2.1rem;
-    border-radius: 0% 0% 2rem 2rem;
+}
+
+#proj-h1 {
+    color: var(--space-cadet);
+    padding: 5rem 0rem;
 }
 
 header h1 span{
@@ -92,7 +96,6 @@ header h1 span{
 }
 .section{
     padding: 3rem;
-    border-radius: 0% 0% 2rem 2rem;
 }
 
 .section h1{
@@ -120,6 +123,49 @@ header h1 span{
     padding: 0.5rem 1rem;
 }
 
+.section li::marker{
+    font-size: 1.5rem;
+}
+
 #footer>div,#footer>ul>li{
     padding: 2rem;
+}
+
+@media (max-width: 480px) /* Mobile */ {
+    #nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav{
+        padding: 1rem;
+    }
+
+    #nav-heading{
+        padding: 0 0 1.5rem 0;
+        font-size: medium;
+    }
+
+    .nav-pills {
+        padding: 0.5rem 1.5rem;
+    }
+
+    #footer>div,#footer>ul>li {
+        padding: 0.99rem;
+    }
+
+    #footer {
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .section {
+        padding: 2rem;
+    }
+
+    .section li{
+        list-style: none;
+    }
+
+    
 }
