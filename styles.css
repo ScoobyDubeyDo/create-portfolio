@@ -5,12 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
-    --blue-jeans: lime;
+    --blue-jeans: #00b0ffff;
     --space-cadet: #2f2e41;
     --languid-lavender: #d0cde1;
     --magnolia: #e7e6f0;
 }
-/* 00b0ffff */
 
 .container {
     max-width: 50em;
