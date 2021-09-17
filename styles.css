@@ -11,9 +11,17 @@
     --magnolia: #e7e6f0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .container {
     max-width: 50em;
+    min-height: inherit;
     margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #nav,
@@ -98,6 +106,9 @@ header h1 span {
 }
 .section {
     padding: 3rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .section h1 {
